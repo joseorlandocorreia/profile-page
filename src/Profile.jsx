@@ -8,7 +8,7 @@ class Profile extends Component {
                 <div class="row">
                     <div class="col-sm-12">
                         <div className="box">
-                            <h2>AABOUT ME</h2>
+                            <h2>ABOUT ME</h2>
                             <p>
                                 My relentless curiosity in what concerns the
                                 realm of all digital related stuff has made me
@@ -96,7 +96,7 @@ class Profile extends Component {
                             <ProfileCard
                                 dates="Jan 2004 - Dec 2004"
                                 location="Radio Popular - Funchal"
-                                role="Computers && Informatics Salesman"
+                                role="Computer Sales"
                             />
                         </div>
                     </div>
