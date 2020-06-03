@@ -48,10 +48,6 @@ html body {
     font-size: 17px;
 }
 
-.largerText{
-    font-size: 32px;
-}
-
 .topnav a:hover {
     background-color: #ddd;
     color: black;
