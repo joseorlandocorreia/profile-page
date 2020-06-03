@@ -36,7 +36,7 @@ class Profile extends Component {
 
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div style={{ minHeight: "550px" }} className="box">
+                        <div style={{ minHeight: "575px" }} className="box">
                             <h2>EDUCATION</h2>
                             <ProfileCard
                                 dates="Jan 2020 - Apr 2020"
@@ -66,7 +66,7 @@ class Profile extends Component {
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
-                        <div style={{ minHeight: "550px" }} className="box">
+                        <div style={{ minHeight: "575px"}} className="box">
                             <h2>EXPERIENCE</h2>
                             <ProfileCard
                                 dates="Sep 2019 - Dec 2019"
