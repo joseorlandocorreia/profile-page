@@ -4,11 +4,12 @@ class Contacts extends Component {
     render() {
         return (
             <div className="overflow">
-                <form>
+                <form action="https://formspree.io/xvowarbk" method="POST">
                     <div className="form-row">
                         <div className="col-md-6 mb-3">
                             <label for="validationDefault01">Full Name</label>
                             <input
+                                name="Full Name"
                                 type="text"
                                 className="form-control"
                                 id="validationDefault01"
@@ -19,6 +20,7 @@ class Contacts extends Component {
                         <div className="col-md-6 mb-3">
                             <label for="validationDefault02">Email</label>
                             <input
+                                name="Reply to:"
                                 type="email"
                                 className="form-control"
                                 id="validationDefault02"
@@ -26,12 +28,13 @@ class Contacts extends Component {
                                 required
                             />
                         </div>
-                        
                     </div>
                     <div className="form-row">
                         <div className="col-md-12 mb-3">
                             <label for="validationDefault03">City</label>
-                            <textarea rows="6"
+                            <textarea
+                                name="message"
+                                rows="6"
                                 type="text"
                                 className="form-control"
                                 id="validationDefault03"

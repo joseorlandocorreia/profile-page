@@ -146,7 +146,7 @@ class Profile extends Component {
                 </div>
 
                 <div class="row">
-                    <div class="col-md-6 col-sm-12">
+                <div class="col-md-12 col-lg-6 col-sm-12">
                         <div className="hobbies-box">
                             <h1>hobbies</h1>
                             <div class="row">
@@ -171,7 +171,7 @@ class Profile extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-lg-6 col-sm-12">
                         <div className="box">
                             <h1>Languages</h1>
                             <div class="row">
