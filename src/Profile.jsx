@@ -8,7 +8,7 @@ class Profile extends Component {
                 <div class="row">
                     <div class="col-sm-12">
                         <div className="box">
-                            <h1>About me</h1>
+                            <h2>AABOUT ME</h2>
                             <p>
                                 My relentless curiosity in what concerns the
                                 realm of all digital related stuff has made me
@@ -37,7 +37,7 @@ class Profile extends Component {
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div className="box">
-                            <h1>Education</h1>
+                            <h2>EDUCATION</h2>
                             <ProfileCard
                                 dates="Jan 2020 - Apr 2020"
                                 location="Academia de Código - Lisbon"
@@ -67,7 +67,7 @@ class Profile extends Component {
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div style={{ minHeight: "450px" }} className="box">
-                            <h1>Experience</h1>
+                            <h2>EXPERIENCE</h2>
                             <ProfileCard
                                 dates="Sep 2019 - Dec 2019"
                                 location="Sitel - Lisbon"
@@ -105,7 +105,7 @@ class Profile extends Component {
                 <div class="row">
                     <div class="col-sm-12">
                         <div className="box">
-                            <h1>Skills</h1>
+                            <h2>SKILLS</h2>
                             <div class="row">
                                 <div class="col-sm">
                                     <h4>Java</h4>
@@ -148,7 +148,7 @@ class Profile extends Component {
                 <div class="row">
                 <div class="col-md-12 col-lg-6 col-sm-12">
                         <div className="hobbies-box">
-                            <h1>hobbies</h1>
+                            <h2>HOBBIES</h2>
                             <div class="row">
                                 <div class="col-sm-2">
                                     <i class="fas fa-hiking"></i>
@@ -173,7 +173,7 @@ class Profile extends Component {
                     </div>
                     <div class="col-md-12 col-lg-6 col-sm-12">
                         <div className="box">
-                            <h1>Languages</h1>
+                            <h2>LANGUAGES</h2>
                             <div class="row">
                                 <div class="col-sm">
                                     <img
