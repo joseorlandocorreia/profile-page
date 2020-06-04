@@ -15,10 +15,16 @@ class Main extends Component {
                 <div className="background">
                     <HeroCard img={heroImgSrc} />
 
-                    <div class="topnav">
-                        <NavLink className="nav-item" to="/profile">Home</NavLink>
-                        <NavLink className="nav-item" to="/projects">News</NavLink>
-                        <NavLink className="nav-item" to="/contacts">Contact</NavLink>
+                    <div className="topnav">
+                        <NavLink className="nav-item" to="/profile">
+                            Profile
+                        </NavLink>
+                        <NavLink className="nav-item" to="/projects">
+                            Projects
+                        </NavLink>
+                        <NavLink className="nav-item" to="/contacts">
+                            Contacts
+                        </NavLink>
                     </div>
 
                     <div>

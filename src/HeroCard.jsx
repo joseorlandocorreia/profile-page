@@ -11,7 +11,7 @@ function HeroCard(props) {
             <h1 className="display-4">José Orlando Correia</h1>
             <h2>Full Stack Developer</h2>
             <p className="lead">
-                Recently graduated from Academia de Código bootcamp
+                Always eager to learn somthing new and ready for new challenges.
             </p>
             <p
                 style={{
@@ -19,8 +19,8 @@ function HeroCard(props) {
                     fontSize: "larger",
                 }}
             >
-                It uses utility class for typography and spacing to space
-                content out within the larger container.
+                “A language that doesn't affect the way you think about
+                programming is not worth knowing.”
             </p>
             <p
                 style={{
@@ -30,7 +30,7 @@ function HeroCard(props) {
                     fontWeight: "bold",
                 }}
             >
-                - Fulanito -
+                - Alan J. Perlis -
             </p>
         </div>
     );

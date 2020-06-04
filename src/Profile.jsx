@@ -120,7 +120,7 @@ class Profile extends Component {
                                     <h4>jUnit</h4>
                                 </div>
                                 <div class="col-sm">
-                                    <h4>Spring MVC</h4>
+                                    <h4>Spring</h4>
                                 </div>
                                 <div class="col-sm">
                                     <h4>Tomcat</h4>

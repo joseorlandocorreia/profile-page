@@ -2,16 +2,15 @@ import React from "react";
 
 function Project(props) {
     return (
-        <div className="cardColor project">
-            <img src={props.img} alt="" />
-            <h1>Project Name</h1>
-            <p>
-                Description: Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Alias earum sequi saepe aliquam. Error, alias. Provident
-                exercitationem quo explicabo at. Itaque inventore accusamus
-                laudantium numquam rerum ad, vero eos odit.
-            </p>
-            <a href={props.url}>Project URL</a>
+        <div class="row">
+            <div class="project-box">
+                <img src={props.img} alt="" />
+                <h1>{props.projectName}</h1>
+                <p>{props.description}</p>
+                <a target="_blank" rel="noopener noreferrer" href={props.url}>
+                    Project Link
+                </a>
+            </div>
         </div>
     );
 }
