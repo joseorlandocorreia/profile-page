@@ -9,25 +9,30 @@ class Contacts extends Component {
                 <div class="row">
                     <div class="container contacts-box text-center">
                         <h1 className="display-5">
-                            <i class="fas fa-phone-square-alt"></i> +351 967 636
-                            241
+                            <i className="fas fa-phone-square-alt"></i> +351 967
+                            636 241
                         </h1>
-                        <h1 className="display-5">
+                        <h1 className="display-5 socialLink">
                             <a href="mailto:jose.correia.pt.2100@gmail.com">
-                                <i class="fas fa-envelope-square"></i>{" "}
-                                jose.correia.pt.2100@gmail.com
+                                <i className="fas fa-envelope-square"></i>
                             </a>
                         </h1>
-                        <h1 className="display-5">
-                            <a href="https://www.linkedin.com/in/jose-orlando-correia/">
-                                <i class="fab fa-linkedin"></i>{" "}
-                                linkedin.com/in/jose-orlando-correia/
+                        <h1 className="display-5 socialLink">
+                            <a
+                                href="https://www.linkedin.com/in/jose-orlando-correia/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-linkedin"></i>
                             </a>
                         </h1>
-                        <h1 className="display-5">
-                            <a href="https://github.com/joseorlandocorreia">
-                                <i class="fab fa-github-square"></i>{" "}
-                                github.com/joseorlandocorreia
+                        <h1 className="display-5 socialLink">
+                            <a
+                                href="https://github.com/joseorlandocorreia"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fab fa-github-square"></i>
                             </a>
                         </h1>
                     </div>

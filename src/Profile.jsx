@@ -60,7 +60,7 @@ class Profile extends Component {
                             />
                             <ProfileCard
                                 dates="Jan 2003 - Oct 2003"
-                                location="Solo Lrarn"
+                                location="Solo Learn"
                                 role="Java Online Course"
                             />
                         </div>

@@ -26,11 +26,19 @@ body {
     background-color: #95a5a6;
 }
 
-.contacts-box a {
-    color: black;   
+.socialLink {
+    display: inline;
+    padding: 24px;
 }
 
-.contacts-box > a:hover, .contacts-box > h1:hover {
+.contacts-box a {
+    color: black;
+    font-size: 48px;
+}
+
+.contacts-box > a:hover,
+.contacts-box > h1:hover,
+.socialLink > a:hover {
     text-decoration: none;
     color: blue;
 }
