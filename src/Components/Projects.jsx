@@ -36,6 +36,15 @@ class Projects extends Component {
                     </div>
                     <div className="col-md-6 col-sm-12">
                         <Project
+                            img="/images/covid19.png"
+                            projectName="Covid19 Information"
+                            description="Personal projecto created to learn more advanced concepts of React JS. It show information about Covid19 Worldwide.
+                            Uses Leaflet JS to show a world map with markers and Recharts to show a graphic about the evolution of cases.
+                            This is Work in Progress and is not fully working yet."
+                            url="https://covid-19-oc.netlify.app"
+                            techs="JavaScript, React JS, Leaflet, Recharts"
+                        />
+                        <Project
                             img="/images/supernoid.png"
                             projectName="Supernoid"
                             description="Video game created in the fourth week of bootcamp after just two weeks of Java and OOP traning.
