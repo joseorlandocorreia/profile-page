@@ -1,13 +1,9 @@
 import React from "react";
 
-const style = {
-    minHeight: "300px"
-}
-
 function Project(props) {
     return (
         <div className="row">
-            <div style={style} className="project-box">
+            <div className="project-box">
                 <div className="col">
                     <img src={props.img} alt="" />
                 </div>
@@ -16,7 +12,7 @@ function Project(props) {
                     <p>{props.description}</p>
                     <h6>Technologies: {props.techs}</h6>
                     <br />
-                    <div style={{ float: "right" }}>
+                    <div style={{ float: "right"}}>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
