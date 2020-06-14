@@ -12,8 +12,8 @@ class Projects extends Component {
                             projectName="My Profile Page"
                             description="Source code for this profile page your are viewing now. 
                             This has been created with React as personal learning project. 
-                            It still in development and the code is not fully optimized yet."
-                            url="https://rokingana.github.io/dronnie/"
+                            It is still in development and the code is not fully optimized yet."
+                            url="https://github.com/joseorlandocorreia/profile-page"
                             techs="JavaScript, React, Git"
                         />
                         <Project
