@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Router, Route, HashRouter, NavLink } from "react-router-dom";
+import { Route, HashRouter, NavLink } from "react-router-dom";
 
-import Profile from "./Profile";
-import Projects from "./Projects";
-import Contacts from "./Contacts";
-import HeroCard from "./HeroCard";
+import Profile from "./Components/Profile";
+import Projects from "./Components/Projects";
+import Contacts from "./Components/Contacts";
+import HeroCard from "./Components/HeroCard";
 
-class Main extends Component {
+class App extends Component {
     render() {
         return (
             <HashRouter>
@@ -36,4 +36,4 @@ class Main extends Component {
         );
     }
 }
-export default Main;
+export default App;

@@ -1,4 +1,5 @@
 import React from "react";
+import Quote from "./Quote.jsx"
 
 function HeroCard(props) {
     return (
@@ -13,25 +14,7 @@ function HeroCard(props) {
             <p className="lead">
                 Always eager to learn somthing new and ready for new challenges.
             </p>
-            <p
-                style={{
-                    fontStyle: "italic",
-                    fontSize: "larger",
-                }}
-            >
-                “A language that doesn't affect the way you think about
-                programming is not worth knowing.”
-            </p>
-            <p
-                style={{
-                    textAlign: "center",
-                    marginTop: "-20px",
-                    fontSize: "larger",
-                    fontWeight: "bold",
-                }}
-            >
-                - Alan J. Perlis -
-            </p>
+            <Quote />
         </div>
     );
 }

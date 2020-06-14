@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import jQuery from "jquery";
-import emailjs from "emailjs";
 
 class Contacts extends Component {
     render() {
         return (
             <div>
-                <div class="row">
-                    <div class="container contacts-box text-center">
+                <div className="row">
+                    <div className="container contacts-box text-center">
                         <h1 className="display-5">
                             <i className="fas fa-phone-square-alt"></i> +351 967
                             636 241

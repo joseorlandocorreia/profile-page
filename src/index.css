@@ -13,7 +13,9 @@ body {
     margin-top: 24px;
 }
 
-.box {
+.aboutMe,
+.skills,
+.languages {
     padding: 24px;
     margin: 24px 24px 24px 24px;
     background-color: #95a5a6;
@@ -24,11 +26,7 @@ body {
     margin-top: 48px;
     margin-bottom: 48px;
     background-color: #95a5a6;
-}
-
-.socialLink {
-    display: inline;
-    padding: 24px;
+    color: black;
 }
 
 .contacts-box a {
@@ -36,8 +34,18 @@ body {
     font-size: 48px;
 }
 
-.contacts-box > a:hover,
-.contacts-box > h1:hover,
+.box {
+    padding: 24px;
+    margin: 24px 24px 24px 24px;
+    background-color: #95a5a6;
+    min-height: 525px;
+}
+
+.socialLink {
+    display: inline;
+    padding: 24px;
+}
+
 .socialLink > a:hover {
     text-decoration: none;
     color: blue;
