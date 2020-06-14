@@ -1,7 +1,7 @@
 import React from "react";
 
 const style = {
-    minHeight: "270px"
+    minHeight: "300px"
 }
 
 function Project(props) {
