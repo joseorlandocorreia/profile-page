@@ -38,7 +38,7 @@ class Projects extends Component {
                         <Project
                             img="/images/covid19.png"
                             projectName="Covid19 Info"
-                            description="Personal projecto created to learn more advanced concepts of React JS. It show information about Covid19 Worldwide.
+                            description="Personal project created to learn more advanced concepts of React JS. It show information about Covid19 Worldwide.
                             Uses Leaflet JS to show a world map with markers and Recharts to show a graphic about the evolution of cases.
                             This is Work in Progress and is not fully working yet."
                             url="https://covid-19-oc.netlify.app"
