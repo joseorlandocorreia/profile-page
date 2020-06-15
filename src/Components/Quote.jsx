@@ -57,6 +57,8 @@ class Quote extends React.Component {
                         alt="theysaidso.com"
                     />
                     <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://theysaidso.com"
                         title="Powered by quotes from theysaidso.com"
                         style={{
