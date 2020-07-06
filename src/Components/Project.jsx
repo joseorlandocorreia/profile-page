@@ -26,7 +26,7 @@ function Project(props) {
                             href={props.url}
                             style={{ float: "bottom" }}
                         >
-                            Project Link
+                            {(!props.github && props.url) ? "Github Link": "Project Page"}
                         </a>
                         <br/>
                         <a
