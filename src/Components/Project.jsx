@@ -28,6 +28,15 @@ function Project(props) {
                         >
                             Project Link
                         </a>
+                        <br/>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={props.github}
+                            style={{ float: "bottom" }}
+                        >
+                            {props.github ? "Github Link" : ""}
+                        </a>
                     </div>
                 </div>
             </div>

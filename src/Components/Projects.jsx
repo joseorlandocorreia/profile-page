@@ -11,7 +11,8 @@ class Projects extends Component {
                         projectName="Covid-19 Tracker"
                         description="Another Covid 19 Tracker App. This Application shows information obtained from the API:
                             'https://covid19.mathdro.id/api'. It uses Hooks to keep and update the state. Personal learning project."
-                        url="https://github.com/joseorlandocorreia/profile-page"
+                        url="https://react-hooks-oc.netlify.app/"
+                        github="https://github.com/joseorlandocorreia/profile-page"
                         techs="JavaScript, React, Git"
                     />
                     <Project
@@ -20,6 +21,7 @@ class Projects extends Component {
                         description="Personal project created to learn more advanced concepts of React JS. It show information about Covid19 Worldwide.
                             Uses Leaflet JS to show a world map with markers and Recharts to show a graphic about the evolution of cases. Work in progress."
                         url="https://covid-19-oc.netlify.app"
+                        github="https://github.com/joseorlandocorreia/covid19-info"
                         techs="JavaScript, React JS, Leaflet, Recharts"
                     />
                     <Project
@@ -29,6 +31,7 @@ class Projects extends Component {
                             where the player controls a drone and have to fight other drones and viruses spores.
                             Coded skeleton for the game engine. Refactored to be able to add new levels more easily."
                         url="https://rokingana.github.io/dronnie/"
+                        github="https://github.com/HigherArki/until-dawn"
                         techs="Java, Gradle, LibGDX, GIMP, SCRUM, Git"
                     />
                     <Project
