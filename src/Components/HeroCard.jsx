@@ -12,7 +12,7 @@ function HeroCard(props) {
             <h1 className="display-4">José Orlando Correia</h1>
             <h2>Full Stack Developer</h2>
             <p className="lead">
-                Always eager to learn somthing new and ready for new challenges.
+                Always eager to learn something new and ready for new challenges.
             </p>
             <Quote />
         </div>
